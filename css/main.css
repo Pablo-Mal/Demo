@@ -1,0 +1,84 @@
+/*DEVELOPER: Pablo Maldonado, IS117-002, Spring 2021 */
+.jumbotron {
+	background-image: url("https://cdn.discordapp.com/attachments/349048646299549697/831600589485637742/jumbo.png");
+	background-size: cover;
+}
+#upcoming{
+	background-image: url("https://cdn.discordapp.com/attachments/349048646299549697/829513271341875211/rgerh.jpg");
+	background-size: cover;
+}
+#gallery{
+	background-image: url("https://cdn.discordapp.com/attachments/349048646299549697/829851999390531614/8835b65f5ea791bbed022f261c95d3c9.png");
+	background-size: cover;
+}
+#sleeves{
+	background-image: url("https://cdn.discordapp.com/attachments/349048646299549697/829872478116773908/SDFHFTGJHFGJGH.png");
+	background-size: cover;
+}
+#deckBoxes{
+	background-image: url("https://cdn.discordapp.com/attachments/349048646299549697/829868669605642260/deckboxes1.jpg");
+	background-size: cover;
+}
+img.home {
+	width: 50%;
+	height: auto;
+	margin-bottom: .5em;
+}
+
+h1.home {
+	font-size: min(max(30px, 4vw), 50px);
+}
+p.home {
+	font-size: min(max(15px, 2vw), 30px);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid;
+    background-color: #fffded;
+}
+/*------------Search Bar -----------------------------*/
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*-------------------------------------------------------*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+
